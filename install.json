@@ -1,0 +1,10 @@
+{
+    "APP_NAME": "Demo App",
+    "APP_VERSION": "1.0.0",
+    "INDEX_TITLE": "Demo App - Demo standard app",
+    "API_SERVER_HOST": "http://localhost",
+    "API_SERVER_PORT": "3000",
+    "API_LIST_URL": "/api/list",
+    "ANGULAR_BASE_ROUTE": "demo",
+    "ANGULAR_APP_MODULE": "demo-app"
+}
