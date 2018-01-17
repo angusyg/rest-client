@@ -68,10 +68,26 @@ var uuidv4 = require('uuid/v4'),
     },
     cfg = {
         development: {
+            server: {
+                host: '#SERVER_HOST#',
+                port: #SERVER_PORT#
+            },
+            apiServer: {
+                host: '#API_SERVER_HOST#',
+                port: #API_SERVER_PORT#
+            },
             log: log,
             httpStatus: httpStatus
         },
         production: {
+            server: {
+                host: '#SERVER_HOST#',
+                port: #SERVER_PORT#
+            },
+            apiServer: {
+                host: '#API_SERVER_HOST#',
+                port: #API_SERVER_PORT#
+            },
             log: log,
             httpStatus: httpStatus
         }
